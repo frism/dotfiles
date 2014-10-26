@@ -1,0 +1,4 @@
+-d postgresql
+-T
+-B
+--skip-gems turbolinks

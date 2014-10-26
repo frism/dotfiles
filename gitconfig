@@ -1,0 +1,17 @@
+[user]
+  name = Faezrah Rizalman
+  email = fwrizalman@gmail.com
+[core]
+  excludesfile = /Users/faezrah/.gitignore_global
+[github]
+  user = frism
+[alias]
+  c = commit -m
+  a = add
+  pl = pull
+  ps = push
+  st = status
+  br = branch
+  type = cat-file -t
+  dump = cat-file -p
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
