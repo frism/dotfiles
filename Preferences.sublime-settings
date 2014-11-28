@@ -1,8 +1,8 @@
 {
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
   "draw_white_space": "all",
-  "font_face": "monaco",
-  "font_size": 14,
+  "font_face": "inconsolata",
+  "font_size": 16.0,
   "highlight_line": true,
   "ignored_packages":
   [
@@ -11,13 +11,8 @@
   "line_padding_bottom": 1,
   "line_padding_top": 1,
   "scroll_past_end": true,
-  "spacegray_sidebar_font_large": true,
-  "spacegray_sidebar_tree_large": true,
-  "spacegray_tabs_auto_width": true,
-  "spacegray_tabs_font_large": true,
-  "spacegray_tabs_large": true,
   "tab_size": 2,
-  "theme": "Spacegray.sublime-theme",
+  "theme": "Cobalt2.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
