@@ -3,8 +3,6 @@
   email = fwrizalman@gmail.com
 [core]
   excludesfile = /Users/faezrah/.gitignore_global
-[github]
-  user = frism
 [alias]
   c = commit -m
   a = add
@@ -15,16 +13,3 @@
   type = cat-file -t
   dump = cat-file -p
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-[color]
-  ui = true
-[color "branch"]
-  current = auto
-  remote = white reverse
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  new = green bold
-[color "status"]
-  added = yellow bold
-  changed = green
-  untracked = cyan

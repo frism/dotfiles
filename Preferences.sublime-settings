@@ -1,19 +1,48 @@
 {
-  "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+  // Colors
+  "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+  "theme": "Soda Light 3.sublime-theme",
+
+  // Font
+  "font_face": "Inconsolata",
+  "font_size": 24,
+  "font_options": ["no_round"],
+
+  // Cursor style - no blinking and slightly wider than default
+  "caret_style": "solid",
+  "wide_caret": true,
+
+  // Editor view look-and-feel
   "draw_white_space": "all",
-  "font_face": "inconsolata",
-  "font_size": 16.0,
   "highlight_line": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
-  "scroll_past_end": true,
+
+  // Editor behavior
+  "highlight_modified_tabs": true,
+  "scroll_past_end": false,
+  "auto_complete_commit_on_tab": true,
+  "ignored_packages": ["Vintage"],
+  "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
+
+  // Word wrapping
+  //"rulers": [80, 120],
+  //"word_wrap": false,
+
+  // Whitespace - no tabs, trimming, end files with \n
   "tab_size": 2,
-  "theme": "Cobalt2.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": false
+  "ensure_newline_at_eof_on_save": true,
+  "enable_tab_scrolling": false,
+
+  // Sidebar - exclude distracting files and folders
+  "file_exclude_patterns": [
+    "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj",
+    "*.o", "*.a", "*.lib", "*.so", "*.dylib",
+    "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb",
+    "*.class", "*.psd", "*.db", "*.beam", ".DS_Store",
+    ".tags"
+  ],
+  "folder_exclude_patterns": [
+    ".svn", ".git", ".hg", "CVS", ".sass-cache"
+  ]
 }
