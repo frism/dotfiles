@@ -13,3 +13,31 @@
   type = cat-file -t
   dump = cat-file -p
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+<<<<<<< HEAD
+=======
+  ac = commit -am
+  pr = pull --rebase
+  prm = pull --rebase origin master
+  log1 = log --oneline
+  ch = checkout
+  m = merge
+  s = stash
+  sp = stash pop
+  sl = stash list
+  cb = checkout -b
+  psm = push origin master
+  amend = commit --amend -m
+[color]
+  ui = true
+[color "branch"]
+  current = auto
+  remote = white reverse
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  new = green bold
+[color "status"]
+  added = yellow bold
+  changed = green
+  untracked = cyan
+>>>>>>> add git branch in prompt setting
