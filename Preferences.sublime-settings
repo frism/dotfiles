@@ -1,6 +1,6 @@
 {
   // Colors
-  "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+  "color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
   "theme": "Soda Light 3.sublime-theme",
 
   // Font
@@ -15,10 +15,11 @@
   // Editor view look-and-feel
   "draw_white_space": "all",
   "highlight_line": true,
+  "highlight_modified_tabs": true,
 
   // Editor behavior
   "highlight_modified_tabs": true,
-  "scroll_past_end": false,
+  "scroll_past_end": true,
   "auto_complete_commit_on_tab": true,
   "ignored_packages": ["Vintage"],
   "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
@@ -30,9 +31,9 @@
   // Whitespace - no tabs, trimming, end files with \n
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
+  "trim_trailing_white_space_on_save": false,
   "ensure_newline_at_eof_on_save": true,
-  "enable_tab_scrolling": false,
+  "enable_tab_scrolling": true,
 
   // Sidebar - exclude distracting files and folders
   "file_exclude_patterns": [
