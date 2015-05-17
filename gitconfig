@@ -13,8 +13,6 @@
   type = cat-file -t
   dump = cat-file -p
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-<<<<<<< HEAD
-=======
   ac = commit -am
   pr = pull --rebase
   prm = pull --rebase origin master
@@ -27,6 +25,8 @@
   cb = checkout -b
   psm = push origin master
   amend = commit --amend -m
+  psf = push origin dev.faezrah
+  prf = pull --rebase origin dev.faezrah
 [color]
   ui = true
 [color "branch"]
@@ -40,4 +40,3 @@
   added = yellow bold
   changed = green
   untracked = cyan
->>>>>>> add git branch in prompt setting
