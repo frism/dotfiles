@@ -16,7 +16,7 @@
   ac = commit -am
   pr = pull --rebase
   prm = pull --rebase origin master
-  log1 = log --oneline
+  lone = log --oneline
   ch = checkout
   m = merge
   s = stash
@@ -27,10 +27,10 @@
   amend = commit --amend -m
   psf = push origin dev.faezrah
   prf = pull --rebase origin dev.faezrah
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
 [color]
   ui = true
 [color "branch"]
-  current = auto
   remote = white reverse
 [color "diff"]
   meta = yellow bold
