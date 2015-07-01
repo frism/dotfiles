@@ -1,6 +1,6 @@
 [user]
-  name = Faezrah Rizalman
-  email = fwrizalman@gmail.com
+  name = faezrah
+  email = faezrah@ideariverrun.com
 [core]
   excludesfile = /Users/faezrah/.gitignore_global
 [alias]
@@ -40,3 +40,13 @@
   added = yellow bold
   changed = green
   untracked = cyan
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
