@@ -1,7 +1,10 @@
-Dotfiles
-=========
+## Dotfiles
+
 My configuration files.
 
 #### Misc
-Font: [Incosolata](http://www.levien.com/type/myfonts/inconsolata.html)
-Terminal theme: [Solarized](http://ethanschoonover.com/solarized)
+- [Incosolata font](http://www.levien.com/type/myfonts/inconsolata.html)
+- [Dracula theme](https://draculatheme.com/):
+  - iTerm2
+  - Vim
+  - Atom
