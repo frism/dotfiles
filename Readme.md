@@ -3,7 +3,7 @@
 My configuration files.
 
 #### Misc
-- [Incosolata font](http://www.levien.com/type/myfonts/inconsolata.html)
+- [Incosolata-DZ font](http://nodnod.net/2009/feb/12/adding-straight-single-and-double-quotes-inconsola/)
 - [Dracula theme](https://draculatheme.com/):
   - iTerm2
   - Vim
