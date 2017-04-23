@@ -1,3 +1,8 @@
+[user]
+	name = F
+	email = fwrizalman@gmail.com
+[core]
+  excludesfile = /Users/faezrah/.gitignore_global
 [alias]
   c = commit -m
   a = add
@@ -23,10 +28,10 @@
   psf = push origin dev.faezrah
   prf = pull --rebase origin dev.faezrah
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
-  amend = commit --amend -m
   undo = reset --soft HEAD~1
-  count = rev-list --count HEAD
-  showfiles = show --pretty="" --name-only
+  showfiles = show --name-only
+  force = push --force
+  count = rev-list HEAD --count
 [color]
   ui = true
 [color "branch"]
@@ -39,3 +44,9 @@
   added = yellow bold
   changed = green
   untracked = cyan
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true
+[http]
+  sslVerify = true
