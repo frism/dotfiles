@@ -32,21 +32,4 @@
   showfiles = show --name-only
   force = push --force
   count = rev-list HEAD --count
-[color]
-  ui = true
-[color "branch"]
-  remote = white reverse
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  new = green bold
-[color "status"]
-  added = yellow bold
-  changed = green
-  untracked = cyan
-[filter "lfs"]
-  clean = git lfs clean %f
-  smudge = git lfs smudge %f
-  required = true
-[http]
-  sslVerify = true
+  prune = fetch origin --prune
